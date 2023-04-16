@@ -16,5 +16,5 @@ void AEntityAIController::BeginPlay() {
 
 void AEntityAIController::Tick(float DeltaSeconds) {
 	Super::Tick(DeltaSeconds);
-	GetBlackboardComponent()->SetValueAsVector(TEXT("playerLocation"), GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation());
+	//GetBlackboardComponent()->SetValueAsVector(TEXT("playerLocation"), GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation());
 }
